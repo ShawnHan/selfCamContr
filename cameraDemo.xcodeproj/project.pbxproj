@@ -20,6 +20,7 @@
 		CD8BE782196FD45A001DA3B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD8BE780196FD45A001DA3B9 /* InfoPlist.strings */; };
 		CD8BE784196FD45A001DA3B9 /* cameraDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BE783196FD45A001DA3B9 /* cameraDemoTests.m */; };
 		CD8BE78F196FD484001DA3B9 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BE78E196FD484001DA3B9 /* CameraViewController.m */; };
+		CD8BE792196FE6D8001DA3B9 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8BE791196FE6D8001DA3B9 /* AVCamPreviewView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CD8BE783196FD45A001DA3B9 /* cameraDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameraDemoTests.m; sourceTree = "<group>"; };
 		CD8BE78D196FD484001DA3B9 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
 		CD8BE78E196FD484001DA3B9 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		CD8BE790196FE6D8001DA3B9 /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
+		CD8BE791196FE6D8001DA3B9 /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				CD8BE76E196FD45A001DA3B9 /* AppDelegate.m */,
 				CD8BE78D196FD484001DA3B9 /* CameraViewController.h */,
 				CD8BE78E196FD484001DA3B9 /* CameraViewController.m */,
+				CD8BE790196FE6D8001DA3B9 /* AVCamPreviewView.h */,
+				CD8BE791196FE6D8001DA3B9 /* AVCamPreviewView.m */,
 				CD8BE770196FD45A001DA3B9 /* Images.xcassets */,
 				CD8BE765196FD45A001DA3B9 /* Supporting Files */,
 			);
@@ -246,6 +251,7 @@
 			files = (
 				CD8BE78F196FD484001DA3B9 /* CameraViewController.m in Sources */,
 				CD8BE76F196FD45A001DA3B9 /* AppDelegate.m in Sources */,
+				CD8BE792196FE6D8001DA3B9 /* AVCamPreviewView.m in Sources */,
 				CD8BE76B196FD45A001DA3B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
